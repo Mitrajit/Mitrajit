@@ -28,11 +28,11 @@
 ```
 ##### 🤖Automatically genereted reports below⏬
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#16972](https://github.com/mozilla/addons-server/pull/16972) in [mozilla/addons-server](https://github.com/mozilla/addons-server)
-2. 🗣 Commented on [#9718](https://github.com/checkstyle/checkstyle/issues/9718) in [checkstyle/checkstyle](https://github.com/checkstyle/checkstyle)
-3. 🗣 Commented on [#9717](https://github.com/checkstyle/checkstyle/issues/9717) in [checkstyle/checkstyle](https://github.com/checkstyle/checkstyle)
+1. 🗣 Commented on [#16972](https://github.com/mozilla/addons-server/issues/16972) in [mozilla/addons-server](https://github.com/mozilla/addons-server)
+2. 💪 Opened PR [#16972](https://github.com/mozilla/addons-server/pull/16972) in [mozilla/addons-server](https://github.com/mozilla/addons-server)
+3. 🗣 Commented on [#9718](https://github.com/checkstyle/checkstyle/issues/9718) in [checkstyle/checkstyle](https://github.com/checkstyle/checkstyle)
 4. 🗣 Commented on [#9717](https://github.com/checkstyle/checkstyle/issues/9717) in [checkstyle/checkstyle](https://github.com/checkstyle/checkstyle)
-5. 🗣 Commented on [#16379](https://github.com/mozilla/addons-server/issues/16379) in [mozilla/addons-server](https://github.com/mozilla/addons-server)
+5. 🗣 Commented on [#9717](https://github.com/checkstyle/checkstyle/issues/9717) in [checkstyle/checkstyle](https://github.com/checkstyle/checkstyle)
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:waka-->
