@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi there 👋 <img src="https://komarev.com/ghpvc/?username=Mitrajit&color=brightgreen" alt="counter" align="right"/>
 
 <p align="center">
 <br>
@@ -26,6 +26,10 @@
 > python
 >>> import antigravity
 ```
+##### 🤖Automatically genereted reports below⏬
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
 <!--START_SECTION:waka-->
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-5822%20lines%20of%20code-blue)
 
