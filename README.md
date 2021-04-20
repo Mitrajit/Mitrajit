@@ -27,4 +27,41 @@
 >>> import antigravity
 ```
 <!--START_SECTION:waka-->
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-5822%20lines%20of%20code-blue)
+
+**🐱 My Github Data** 
+
+> 🏆 50 Contributions in the Year 2021
+ > 
+> 📦 981 Bytes Used in Github's Storage 
+ > 
+> 💼 Opted to Hire
+ > 
+> 📜 11 Public Repositories 
+ > 
+> 🔑 0 Private Repositories  
+ > 
+**I'm a Night 🦉** 
+
+```text
+🌞 Morning    0 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   0.0% 
+🌆 Daytime    8 commits      ██████░░░░░░░░░░░░░░░░░░░   25.81% 
+🌃 Evening    17 commits     █████████████░░░░░░░░░░░░   54.84% 
+🌙 Night      6 commits      ████░░░░░░░░░░░░░░░░░░░░░   19.35%
+
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+💬 Programming Languages: 
+No Activity Tracked This Week
+
+🔥 Editors: 
+No Activity Tracked This Week
+
+```
+
+
 <!--END_SECTION:waka-->
