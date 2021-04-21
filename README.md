@@ -39,35 +39,37 @@
 <!--START_SECTION:waka-->
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-5822%20lines%20of%20code-blue)
 
-**🐱 My Github Data**
+**🐱 My Github Data** 
 
-> 🏆 53 Contributions in the Year 2021
- >
-> 📦 992 Bytes Used in Github's Storage
- >
-> 🚫 Not Opted to Hire
- >
-> 📜 11 Public Repositories
- >
-> 🔑 0 Private Repositories
- >
-📊 **This Week I Spent My Time On**
+> 🏆 54 Contributions in the Year 2021
+ > 
+> 📦 994 Bytes Used in Github's Storage 
+ > 
+> 💼 Opted to Hire
+ > 
+> 📜 11 Public Repositories 
+ > 
+> 🔑 0 Private Repositories  
+ > 
+📊 **This Week I Spent My Time On** 
 
 ```text
-💬 Programming Languages:
-No Activity Tracked This Week
+💬 Programming Languages: 
+Python                   1 hr 16 mins        ███████████████████░░░░░░   77.99% 
+Markdown                 21 mins             █████░░░░░░░░░░░░░░░░░░░░   21.81% 
+Other                    0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.2%
 
-🔥 Editors:
-No Activity Tracked This Week
+🔥 Editors: 
+VS Code                  1 hr 37 mins        █████████████████████████   100.0%
 
 ```
 
-**I Mostly Code in Python**
+**I Mostly Code in Python** 
 
 ```text
-Python                   3 repos             ██████████░░░░░░░░░░░░░░░   42.86%
-Java                     2 repos             ███████░░░░░░░░░░░░░░░░░░   28.57%
-C#                       1 repo              ███░░░░░░░░░░░░░░░░░░░░░░   14.29%
+Python                   3 repos             ██████████░░░░░░░░░░░░░░░   42.86% 
+Java                     2 repos             ███████░░░░░░░░░░░░░░░░░░   28.57% 
+C#                       1 repo              ███░░░░░░░░░░░░░░░░░░░░░░   14.29% 
 Jupyter Notebook         1 repo              ███░░░░░░░░░░░░░░░░░░░░░░   14.29%
 
 ```
