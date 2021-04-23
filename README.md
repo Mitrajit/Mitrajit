@@ -33,7 +33,7 @@
 2. 🗣 Commented on [#16972](https://github.com/mozilla/addons-server/issues/16972) in [mozilla/addons-server](https://github.com/mozilla/addons-server)
 3. 🗣 Commented on [#16972](https://github.com/mozilla/addons-server/issues/16972) in [mozilla/addons-server](https://github.com/mozilla/addons-server)
 4. 🗣 Commented on [#16972](https://github.com/mozilla/addons-server/issues/16972) in [mozilla/addons-server](https://github.com/mozilla/addons-server)
-5. 💪 Opened PR [#16972](https://github.com/mozilla/addons-server/pull/16972) in [mozilla/addons-server](https://github.com/mozilla/addons-server)
+5. 🗣 Commented on [#16972](https://github.com/mozilla/addons-server/issues/16972) in [mozilla/addons-server](https://github.com/mozilla/addons-server)
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:waka-->
