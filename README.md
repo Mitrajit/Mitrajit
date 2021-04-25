@@ -20,12 +20,8 @@
 ![](https://github-readme-stats.sumanth-talluri.vercel.app/api?username=Mitrajit&show_icons=true&title_color=fff&icon_color=79ff97&text_color=efefef&bg_color=24292e)
 <!-- <img src="https://github-readme-stats.sumanth-talluri.vercel.app/api/top-langs/?username=Mitrajit&show_icons=true&hide_border=true&theme=radical" width="37%" alt="Mitrajit's Top Languages"> -->
 
-### ⚡ Fun fact:
-```
-> pip install antigravity
-> python
->>> import antigravity
-```
+### ⚡ Fun fact: 
+#### Spider is the only web developer to love bugs 🪲
 ## 🤖Automatically genereted reports below⏬
 ### Recent activity
 <!--START_SECTION:activity-->
