@@ -33,11 +33,11 @@
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:waka-->
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-6097%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-6189%20lines%20of%20code-blue)
 
 **🐱 My Github Data** 
 
-> 🏆 71 Contributions in the Year 2021
+> 🏆 73 Contributions in the Year 2021
  > 
 > 📦 2.1 kB Used in Github's Storage 
  > 
@@ -62,13 +62,14 @@ VS Code                  6 hrs 2 mins        ███████████�
 
 ```
 
-**I Mostly Code in Java** 
+**I Mostly Code in Python** 
 
 ```text
-Java                     3 repos             █████████░░░░░░░░░░░░░░░░   37.5% 
 Python                   3 repos             █████████░░░░░░░░░░░░░░░░   37.5% 
+Java                     2 repos             ██████░░░░░░░░░░░░░░░░░░░   25.0% 
 C#                       1 repo              ███░░░░░░░░░░░░░░░░░░░░░░   12.5% 
-Jupyter Notebook         1 repo              ███░░░░░░░░░░░░░░░░░░░░░░   12.5%
+Jupyter Notebook         1 repo              ███░░░░░░░░░░░░░░░░░░░░░░   12.5% 
+C                        1 repo              ███░░░░░░░░░░░░░░░░░░░░░░   12.5%
 
 ```
 
