@@ -25,9 +25,9 @@
 ## 🤖Automatically genereted reports below⏬
 ### Recent activity
 <!--START_SECTION:activity-->
-1. ❗️ Opened issue [#1](https://github.com/prithwishpramanik/Weather-App/issues/1) in [prithwishpramanik/Weather-App](https://github.com/prithwishpramanik/Weather-App)
-2. 🗣 Commented on [#16972](https://github.com/mozilla/addons-server/issues/16972) in [mozilla/addons-server](https://github.com/mozilla/addons-server)
-3. 🗣 Commented on [#16972](https://github.com/mozilla/addons-server/issues/16972) in [mozilla/addons-server](https://github.com/mozilla/addons-server)
+1. 🗣 Commented on [#1](https://github.com/Mitrajit/code-disco/issues/1) in [Mitrajit/code-disco](https://github.com/Mitrajit/code-disco)
+2. 🎉 Merged PR [#1](https://github.com/Mitrajit/code-disco/pull/1) in [Mitrajit/code-disco](https://github.com/Mitrajit/code-disco)
+3. ❗️ Opened issue [#1](https://github.com/prithwishpramanik/Weather-App/issues/1) in [prithwishpramanik/Weather-App](https://github.com/prithwishpramanik/Weather-App)
 4. 🗣 Commented on [#16972](https://github.com/mozilla/addons-server/issues/16972) in [mozilla/addons-server](https://github.com/mozilla/addons-server)
 5. 🗣 Commented on [#16972](https://github.com/mozilla/addons-server/issues/16972) in [mozilla/addons-server](https://github.com/mozilla/addons-server)
 <!--END_SECTION:activity-->
