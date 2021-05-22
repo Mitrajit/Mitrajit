@@ -33,32 +33,32 @@
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:waka-->
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-104251%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-104309%20lines%20of%20code-blue)
 
 **🐱 My Github Data** 
 
-> 🏆 129 Contributions in the Year 2021
+> 🏆 131 Contributions in the Year 2021
  > 
-> 📦 5.3 kB Used in Github's Storage 
+> 📦 13.6 kB Used in Github's Storage 
  > 
 > 💼 Opted to Hire
  > 
-> 📜 14 Public Repositories 
+> 📜 15 Public Repositories 
  > 
-> 🔑 2 Private Repositories  
+> 🔑 1 Private Repository 
  > 
 📊 **This Week I Spent My Time On** 
 
 ```text
 💬 Programming Languages: 
-HTML                     3 hrs 28 mins       ██████████░░░░░░░░░░░░░░░   40.86% 
-Java                     1 hr 52 mins        █████░░░░░░░░░░░░░░░░░░░░   21.96% 
-CSS                      1 hr 5 mins         ███░░░░░░░░░░░░░░░░░░░░░░   12.74% 
-C                        48 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   9.47% 
-Git Config               41 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   8.19%
+HTML                     4 hrs 54 mins       ████████████░░░░░░░░░░░░░   50.04% 
+Java                     1 hr 52 mins        ████░░░░░░░░░░░░░░░░░░░░░   19.02% 
+CSS                      1 hr 5 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   11.15% 
+C                        48 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   8.2% 
+Git Config               41 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   7.1%
 
 🔥 Editors: 
-VS Code                  8 hrs 30 mins       █████████████████████████   100.0%
+VS Code                  9 hrs 49 mins       █████████████████████████   100.0%
 
 ```
 
