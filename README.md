@@ -25,11 +25,11 @@
 ## 🤖Automatically genereted reports below⏬
 ### Recent activity
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#2](https://github.com/Mitrajit/upgraded-happiness/pull/2) in [Mitrajit/upgraded-happiness](https://github.com/Mitrajit/upgraded-happiness)
-2. 🎉 Merged PR [#1](https://github.com/Mitrajit/upgraded-happiness/pull/1) in [Mitrajit/upgraded-happiness](https://github.com/Mitrajit/upgraded-happiness)
-3. 🗣 Commented on [#2](https://github.com/Mitrajit/code-disco/issues/2) in [Mitrajit/code-disco](https://github.com/Mitrajit/code-disco)
-4. 🎉 Merged PR [#2](https://github.com/Mitrajit/code-disco/pull/2) in [Mitrajit/code-disco](https://github.com/Mitrajit/code-disco)
-5. 🗣 Commented on [#1](https://github.com/Mitrajit/code-disco/issues/1) in [Mitrajit/code-disco](https://github.com/Mitrajit/code-disco)
+1. 💪 Opened PR [#2](https://github.com/prithwishpramanik/Weather-App/pull/2) in [prithwishpramanik/Weather-App](https://github.com/prithwishpramanik/Weather-App)
+2. 🎉 Merged PR [#2](https://github.com/Mitrajit/upgraded-happiness/pull/2) in [Mitrajit/upgraded-happiness](https://github.com/Mitrajit/upgraded-happiness)
+3. 🎉 Merged PR [#1](https://github.com/Mitrajit/upgraded-happiness/pull/1) in [Mitrajit/upgraded-happiness](https://github.com/Mitrajit/upgraded-happiness)
+4. 🗣 Commented on [#2](https://github.com/Mitrajit/code-disco/issues/2) in [Mitrajit/code-disco](https://github.com/Mitrajit/code-disco)
+5. 🎉 Merged PR [#2](https://github.com/Mitrajit/code-disco/pull/2) in [Mitrajit/code-disco](https://github.com/Mitrajit/code-disco)
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:waka-->
