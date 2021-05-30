@@ -25,11 +25,11 @@
 ## 🤖Automatically genereted reports below⏬
 ### Recent activity
 <!--START_SECTION:activity-->
-1. ❗️ Opened issue [#18301](https://github.com/jsdelivr/jsdelivr/issues/18301) in [jsdelivr/jsdelivr](https://github.com/jsdelivr/jsdelivr)
-2. 💪 Opened PR [#2](https://github.com/prithwishpramanik/Weather-App/pull/2) in [prithwishpramanik/Weather-App](https://github.com/prithwishpramanik/Weather-App)
-3. 🎉 Merged PR [#2](https://github.com/Mitrajit/upgraded-happiness/pull/2) in [Mitrajit/upgraded-happiness](https://github.com/Mitrajit/upgraded-happiness)
-4. 🎉 Merged PR [#1](https://github.com/Mitrajit/upgraded-happiness/pull/1) in [Mitrajit/upgraded-happiness](https://github.com/Mitrajit/upgraded-happiness)
-5. 🗣 Commented on [#2](https://github.com/Mitrajit/code-disco/issues/2) in [Mitrajit/code-disco](https://github.com/Mitrajit/code-disco)
+1. 🗣 Commented on [#18301](https://github.com/jsdelivr/jsdelivr/issues/18301) in [jsdelivr/jsdelivr](https://github.com/jsdelivr/jsdelivr)
+2. ❗️ Opened issue [#18301](https://github.com/jsdelivr/jsdelivr/issues/18301) in [jsdelivr/jsdelivr](https://github.com/jsdelivr/jsdelivr)
+3. 💪 Opened PR [#2](https://github.com/prithwishpramanik/Weather-App/pull/2) in [prithwishpramanik/Weather-App](https://github.com/prithwishpramanik/Weather-App)
+4. 🎉 Merged PR [#2](https://github.com/Mitrajit/upgraded-happiness/pull/2) in [Mitrajit/upgraded-happiness](https://github.com/Mitrajit/upgraded-happiness)
+5. 🎉 Merged PR [#1](https://github.com/Mitrajit/upgraded-happiness/pull/1) in [Mitrajit/upgraded-happiness](https://github.com/Mitrajit/upgraded-happiness)
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:waka-->
