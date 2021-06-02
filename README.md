@@ -25,11 +25,11 @@
 ## 🤖Automatically genereted reports below⏬
 ### Recent activity
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#4](https://github.com/prithwishpramanik/Weather-App/pull/4) in [prithwishpramanik/Weather-App](https://github.com/prithwishpramanik/Weather-App)
-2. 🗣 Commented on [#18301](https://github.com/jsdelivr/jsdelivr/issues/18301) in [jsdelivr/jsdelivr](https://github.com/jsdelivr/jsdelivr)
-3. ❗️ Opened issue [#18301](https://github.com/jsdelivr/jsdelivr/issues/18301) in [jsdelivr/jsdelivr](https://github.com/jsdelivr/jsdelivr)
-4. 💪 Opened PR [#2](https://github.com/prithwishpramanik/Weather-App/pull/2) in [prithwishpramanik/Weather-App](https://github.com/prithwishpramanik/Weather-App)
-5. 🎉 Merged PR [#2](https://github.com/Mitrajit/upgraded-happiness/pull/2) in [Mitrajit/upgraded-happiness](https://github.com/Mitrajit/upgraded-happiness)
+1. 🗣 Commented on [#1](https://github.com/prithwishpramanik/Weather-App/issues/1) in [prithwishpramanik/Weather-App](https://github.com/prithwishpramanik/Weather-App)
+2. 💪 Opened PR [#4](https://github.com/prithwishpramanik/Weather-App/pull/4) in [prithwishpramanik/Weather-App](https://github.com/prithwishpramanik/Weather-App)
+3. 🗣 Commented on [#18301](https://github.com/jsdelivr/jsdelivr/issues/18301) in [jsdelivr/jsdelivr](https://github.com/jsdelivr/jsdelivr)
+4. ❗️ Opened issue [#18301](https://github.com/jsdelivr/jsdelivr/issues/18301) in [jsdelivr/jsdelivr](https://github.com/jsdelivr/jsdelivr)
+5. 💪 Opened PR [#2](https://github.com/prithwishpramanik/Weather-App/pull/2) in [prithwishpramanik/Weather-App](https://github.com/prithwishpramanik/Weather-App)
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:waka-->
