@@ -1,4 +1,4 @@
-### Hi there 👋 <img src="https://komarev.com/ghpvc/?username=Mitrajit&color=brightgreen" alt="counter" align="right"/>
+### Hi there <img src="https://raw.githubusercontent.com/soumyadip007/soumyadip007/master/Hi.gif" width="25px"> <img src="https://komarev.com/ghpvc/?username=Mitrajit&color=brightgreen" alt="counter" align="right"/>
 
 <p align="center">
 <br>
@@ -21,7 +21,7 @@
 <!-- <img src="https://github-readme-stats.sumanth-talluri.vercel.app/api/top-langs/?username=Mitrajit&show_icons=true&hide_border=true&theme=radical" width="37%" alt="Mitrajit's Top Languages"> -->
 
 ### ⚡ Fun fact: 
-#### Spider is the only web developer to love bugs 🪲
+#### Spiders are the only web developer to love bugs :bug:
 ## 🤖Automatically genereted reports below⏬
 ### Recent activity
 <!--START_SECTION:activity-->
