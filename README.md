@@ -1,5 +1,5 @@
 ### Hi there <img src="https://raw.githubusercontent.com/soumyadip007/soumyadip007/master/Hi.gif" width="25px"> <img src="https://komarev.com/ghpvc/?username=Mitrajit&color=brightgreen" alt="counter" align="right"/>
-
+:exclamation: Important! just for records all my commits that used my previous GPG key for verification will be shown as Unverified because I accidentally deleted the public GPG key. Sorry in advance.
 <p align="center">
 <br>
 <a href="mailto:chandra.rupam@gmail.com?subject=Hi Mitrajit"><img src="https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>&nbsp;
