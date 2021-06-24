@@ -25,11 +25,11 @@
 ## 🤖Automatically genereted reports below⏬
 ### Recent activity
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#2](https://github.com/Mitrajit/covid19-twitter/pull/2) in [Mitrajit/covid19-twitter](https://github.com/Mitrajit/covid19-twitter)
-2. ❗️ Closed issue [#1](https://github.com/Mitrajit/covid19-twitter/issues/1) in [Mitrajit/covid19-twitter](https://github.com/Mitrajit/covid19-twitter)
-3. 💪 Opened PR [#2](https://github.com/Mitrajit/covid19-twitter/pull/2) in [Mitrajit/covid19-twitter](https://github.com/Mitrajit/covid19-twitter)
-4. ❗️ Opened issue [#1](https://github.com/Mitrajit/covid19-twitter/issues/1) in [Mitrajit/covid19-twitter](https://github.com/Mitrajit/covid19-twitter)
-5. 🗣 Commented on [#1](https://github.com/prithwishpramanik/Weather-App/issues/1) in [prithwishpramanik/Weather-App](https://github.com/prithwishpramanik/Weather-App)
+1. 💪 Opened PR [#5](https://github.com/prithwishpramanik/Weather-App/pull/5) in [prithwishpramanik/Weather-App](https://github.com/prithwishpramanik/Weather-App)
+2. 🎉 Merged PR [#2](https://github.com/Mitrajit/covid19-twitter/pull/2) in [Mitrajit/covid19-twitter](https://github.com/Mitrajit/covid19-twitter)
+3. ❗️ Closed issue [#1](https://github.com/Mitrajit/covid19-twitter/issues/1) in [Mitrajit/covid19-twitter](https://github.com/Mitrajit/covid19-twitter)
+4. 💪 Opened PR [#2](https://github.com/Mitrajit/covid19-twitter/pull/2) in [Mitrajit/covid19-twitter](https://github.com/Mitrajit/covid19-twitter)
+5. ❗️ Opened issue [#1](https://github.com/Mitrajit/covid19-twitter/issues/1) in [Mitrajit/covid19-twitter](https://github.com/Mitrajit/covid19-twitter)
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:waka-->
