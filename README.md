@@ -33,11 +33,11 @@
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:waka-->
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-96344%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-96323%20lines%20of%20code-blue)
 
 **🐱 My Github Data** 
 
-> 🏆 249 Contributions in the Year 2021
+> 🏆 250 Contributions in the Year 2021
  > 
 > 📦 45.7 kB Used in Github's Storage 
  > 
@@ -51,10 +51,11 @@
 
 ```text
 💬 Programming Languages: 
-Java                     1 hr 43 mins        █████████████████████████   100.0%
+Java                     2 hrs 49 mins       █████████████████████████   99.94% 
+JSON                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.06%
 
 🔥 Editors: 
-VS Code                  1 hr 43 mins        █████████████████████████   100.0%
+VS Code                  2 hrs 49 mins       █████████████████████████   100.0%
 
 ```
 
@@ -71,5 +72,5 @@ CSS                      1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 14/07/2021
+ Last Updated on 15/07/2021
 <!--END_SECTION:waka-->
