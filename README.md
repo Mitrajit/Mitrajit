@@ -25,11 +25,11 @@
 ## 🤖Automatically genereted reports below⏬
 ### Recent activity
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#6](https://github.com/prithwishpramanik/Weather-App/pull/6) in [prithwishpramanik/Weather-App](https://github.com/prithwishpramanik/Weather-App)
-2. 💪 Opened PR [#5](https://github.com/prithwishpramanik/Weather-App/pull/5) in [prithwishpramanik/Weather-App](https://github.com/prithwishpramanik/Weather-App)
-3. 🎉 Merged PR [#2](https://github.com/Mitrajit/covid19-twitter/pull/2) in [Mitrajit/covid19-twitter](https://github.com/Mitrajit/covid19-twitter)
-4. ❗️ Closed issue [#1](https://github.com/Mitrajit/covid19-twitter/issues/1) in [Mitrajit/covid19-twitter](https://github.com/Mitrajit/covid19-twitter)
-5. 💪 Opened PR [#2](https://github.com/Mitrajit/covid19-twitter/pull/2) in [Mitrajit/covid19-twitter](https://github.com/Mitrajit/covid19-twitter)
+1. 🎉 Merged PR [#3](https://github.com/Mitrajit/effective-invention/pull/3) in [Mitrajit/effective-invention](https://github.com/Mitrajit/effective-invention)
+2. 💪 Opened PR [#6](https://github.com/prithwishpramanik/Weather-App/pull/6) in [prithwishpramanik/Weather-App](https://github.com/prithwishpramanik/Weather-App)
+3. 💪 Opened PR [#5](https://github.com/prithwishpramanik/Weather-App/pull/5) in [prithwishpramanik/Weather-App](https://github.com/prithwishpramanik/Weather-App)
+4. 🎉 Merged PR [#2](https://github.com/Mitrajit/covid19-twitter/pull/2) in [Mitrajit/covid19-twitter](https://github.com/Mitrajit/covid19-twitter)
+5. ❗️ Closed issue [#1](https://github.com/Mitrajit/covid19-twitter/issues/1) in [Mitrajit/covid19-twitter](https://github.com/Mitrajit/covid19-twitter)
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:waka-->
