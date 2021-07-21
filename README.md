@@ -28,8 +28,8 @@
 1. 🗣 Commented on [#211](https://github.com/anmol098/waka-readme-stats/issues/211) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
 2. 🗣 Commented on [#211](https://github.com/anmol098/waka-readme-stats/issues/211) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
 3. 🗣 Commented on [#211](https://github.com/anmol098/waka-readme-stats/issues/211) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
-4. ❗️ Opened issue [#211](https://github.com/anmol098/waka-readme-stats/issues/211) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
-5. 🎉 Merged PR [#3](https://github.com/Mitrajit/effective-invention/pull/3) in [Mitrajit/effective-invention](https://github.com/Mitrajit/effective-invention)
+4. 🗣 Commented on [#211](https://github.com/anmol098/waka-readme-stats/issues/211) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
+5. ❗️ Opened issue [#211](https://github.com/anmol098/waka-readme-stats/issues/211) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:waka-->
