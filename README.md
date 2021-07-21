@@ -26,10 +26,10 @@
 ### Recent activity
 <!--START_SECTION:activity-->
 1. 🗣 Commented on [#211](https://github.com/anmol098/waka-readme-stats/issues/211) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
-2. ❗️ Opened issue [#211](https://github.com/anmol098/waka-readme-stats/issues/211) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
-3. 🎉 Merged PR [#3](https://github.com/Mitrajit/effective-invention/pull/3) in [Mitrajit/effective-invention](https://github.com/Mitrajit/effective-invention)
-4. 💪 Opened PR [#6](https://github.com/prithwishpramanik/Weather-App/pull/6) in [prithwishpramanik/Weather-App](https://github.com/prithwishpramanik/Weather-App)
-5. 💪 Opened PR [#5](https://github.com/prithwishpramanik/Weather-App/pull/5) in [prithwishpramanik/Weather-App](https://github.com/prithwishpramanik/Weather-App)
+2. 🗣 Commented on [#211](https://github.com/anmol098/waka-readme-stats/issues/211) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
+3. ❗️ Opened issue [#211](https://github.com/anmol098/waka-readme-stats/issues/211) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
+4. 🎉 Merged PR [#3](https://github.com/Mitrajit/effective-invention/pull/3) in [Mitrajit/effective-invention](https://github.com/Mitrajit/effective-invention)
+5. 💪 Opened PR [#6](https://github.com/prithwishpramanik/Weather-App/pull/6) in [prithwishpramanik/Weather-App](https://github.com/prithwishpramanik/Weather-App)
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:waka-->
