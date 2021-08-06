@@ -25,9 +25,9 @@
 ## 🤖Automatically genereted reports below⏬
 ### Recent activity
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#213](https://github.com/anmol098/waka-readme-stats/issues/213) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
-2. 💪 Opened PR [#213](https://github.com/anmol098/waka-readme-stats/pull/213) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
-3. 🗣 Commented on [#211](https://github.com/anmol098/waka-readme-stats/issues/211) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
+1. 🎉 Merged PR [#1](https://github.com/Mitrajit/mitrajit.github.io/pull/1) in [Mitrajit/mitrajit.github.io](https://github.com/Mitrajit/mitrajit.github.io)
+2. 🗣 Commented on [#213](https://github.com/anmol098/waka-readme-stats/issues/213) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
+3. 💪 Opened PR [#213](https://github.com/anmol098/waka-readme-stats/pull/213) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
 4. 🗣 Commented on [#211](https://github.com/anmol098/waka-readme-stats/issues/211) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
 5. 🗣 Commented on [#211](https://github.com/anmol098/waka-readme-stats/issues/211) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
 <!--END_SECTION:activity-->
