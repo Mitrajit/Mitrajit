@@ -33,13 +33,13 @@
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:waka-->
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-99726%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-99891%20lines%20of%20code-blue)
 
 **🐱 My Github Data** 
 
-> 🏆 303 Contributions in the Year 2021
+> 🏆 307 Contributions in the Year 2021
  > 
-> 📦 46.7 kB Used in Github's Storage 
+> 📦 46.8 kB Used in Github's Storage 
  > 
 > 💼 Opted to Hire
  > 
@@ -51,14 +51,14 @@
 
 <table>
 <tr><th colspan="3"><br>💬 <i>Programming Languages</i></th></tr> 
-  <tr><td>JavaScript</td><td>14 hrs 11 mins</td><td>██████████████░░░░░░░░░░░   58.26%</td></tr> 
-  <tr><td>CSS</td><td>4 hrs 31 mins</td><td>████░░░░░░░░░░░░░░░░░░░░░   18.56%</td></tr> 
-  <tr><td>EJS</td><td>2 hrs 43 mins</td><td>██░░░░░░░░░░░░░░░░░░░░░░░   11.2%</td></tr> 
-  <tr><td>HTML</td><td>2 hrs 12 mins</td><td>██░░░░░░░░░░░░░░░░░░░░░░░   9.09%</td></tr> 
-  <tr><td>Bash</td><td>23 mins</td><td>░░░░░░░░░░░░░░░░░░░░░░░░░   1.59%</td></tr>
+  <tr><td>JavaScript</td><td>14 hrs 20 mins</td><td>████████████░░░░░░░░░░░░░   49.27%</td></tr> 
+  <tr><td>HTML</td><td>6 hrs 16 mins</td><td>█████░░░░░░░░░░░░░░░░░░░░   21.57%</td></tr> 
+  <tr><td>CSS</td><td>4 hrs 41 mins</td><td>████░░░░░░░░░░░░░░░░░░░░░   16.15%</td></tr> 
+  <tr><td>EJS</td><td>2 hrs 43 mins</td><td>██░░░░░░░░░░░░░░░░░░░░░░░   9.38%</td></tr> 
+  <tr><td>JSON</td><td>32 mins</td><td>░░░░░░░░░░░░░░░░░░░░░░░░░   1.85%</td></tr>
 
 <tr><th colspan="3"><br>🔥 <i>Editors</i></th></tr> 
-  <tr><td>VS Code</td><td>24 hrs 22 mins</td><td>█████████████████████████   100.0%</td></tr>
+  <tr><td>VS Code</td><td>29 hrs 5 mins</td><td>█████████████████████████   100.0%</td></tr>
 
 </table>
 
@@ -74,5 +74,5 @@
 
 
 
- Last Updated on 04/09/2021
+ Last Updated on 07/09/2021
 <!--END_SECTION:waka-->
