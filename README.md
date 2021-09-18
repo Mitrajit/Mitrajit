@@ -33,11 +33,11 @@
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:waka-->
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-99661%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-99662%20lines%20of%20code-blue)
 
 **🐱 My Github Data** 
 
-> 🏆 364 Contributions in the Year 2021
+> 🏆 366 Contributions in the Year 2021
  > 
 > 📦 46.8 kB Used in Github's Storage 
  > 
@@ -51,12 +51,12 @@
 
 <table>
 <tr><th colspan="3"><br>💬 <i>Programming Languages</i></th></tr> 
-  <tr><td>JavaScript</td><td>4 hrs 51 mins</td><td>████████████████████████░   97.1%</td></tr> 
-  <tr><td>JSON</td><td>8 mins</td><td>░░░░░░░░░░░░░░░░░░░░░░░░░   2.87%</td></tr> 
-  <tr><td>Git Config</td><td>0 secs</td><td>░░░░░░░░░░░░░░░░░░░░░░░░░   0.03%</td></tr>
+  <tr><td>JavaScript</td><td>5 hrs 25 mins</td><td>███████████████████████░░   94.29%</td></tr> 
+  <tr><td>JSON</td><td>19 mins</td><td>█░░░░░░░░░░░░░░░░░░░░░░░░   5.69%</td></tr> 
+  <tr><td>Git Config</td><td>0 secs</td><td>░░░░░░░░░░░░░░░░░░░░░░░░░   0.02%</td></tr>
 
 <tr><th colspan="3"><br>🔥 <i>Editors</i></th></tr> 
-  <tr><td>VS Code</td><td>5 hrs</td><td>█████████████████████████   100.0%</td></tr>
+  <tr><td>VS Code</td><td>5 hrs 45 mins</td><td>█████████████████████████   100.0%</td></tr>
 
 </table>
 
@@ -72,5 +72,5 @@
 
 
 
- Last Updated on 17/09/2021
+ Last Updated on 18/09/2021
 <!--END_SECTION:waka-->
