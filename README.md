@@ -32,11 +32,11 @@
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:waka-->
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-114422%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-113840%20lines%20of%20code-blue)
 
 **🐱 My Github Data** 
 
-> 🏆 443 Contributions in the Year 2021
+> 🏆 448 Contributions in the Year 2021
  > 
 > 📦 75.3 kB Used in Github's Storage 
  > 
@@ -50,10 +50,12 @@
 
 <table>
 <tr><th colspan="3"><br>💬 <i>Programming Languages</i></th></tr> 
-  <tr><td>JavaScript</td><td>22 mins</td><td>█████████████████████████   100.0%</td></tr>
+  <tr><td>JavaScript</td><td>1 hr 48 mins</td><td>█████████████████████████   99.93%</td></tr> 
+  <tr><td>Text</td><td>0 secs</td><td>░░░░░░░░░░░░░░░░░░░░░░░░░   0.07%</td></tr> 
+  <tr><td>Python</td><td>0 secs</td><td>░░░░░░░░░░░░░░░░░░░░░░░░░   0.0%</td></tr>
 
 <tr><th colspan="3"><br>🔥 <i>Editors</i></th></tr> 
-  <tr><td>VS Code</td><td>22 mins</td><td>█████████████████████████   100.0%</td></tr>
+  <tr><td>VS Code</td><td>1 hr 48 mins</td><td>█████████████████████████   100.0%</td></tr>
 
 </table>
 
@@ -69,5 +71,5 @@
 
 
 
- Last Updated on 20/10/2021
+ Last Updated on 21/10/2021
 <!--END_SECTION:waka-->
