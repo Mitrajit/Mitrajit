@@ -32,11 +32,11 @@
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:waka-->
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-113840%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-113799%20lines%20of%20code-blue)
 
 **🐱 My Github Data** 
 
-> 🏆 448 Contributions in the Year 2021
+> 🏆 449 Contributions in the Year 2021
  > 
 > 📦 75.3 kB Used in Github's Storage 
  > 
@@ -71,5 +71,5 @@
 
 
 
- Last Updated on 21/10/2021
+ Last Updated on 22/10/2021
 <!--END_SECTION:waka-->
