@@ -50,10 +50,10 @@
 
 <table>
 <tr><th colspan="3"><br>💬 <i>Programming Languages</i></th></tr> 
-  <tr><td>JavaScript</td><td>1 hr 7 mins</td><td>█████████████████████████   100.0%</td></tr>
+No Activity Tracked This Week
 
 <tr><th colspan="3"><br>🔥 <i>Editors</i></th></tr> 
-  <tr><td>VS Code</td><td>1 hr 7 mins</td><td>█████████████████████████   100.0%</td></tr>
+No Activity Tracked This Week
 
 </table>
 
@@ -69,5 +69,5 @@
 
 
 
- Last Updated on 17/11/2021
+ Last Updated on 18/11/2021
 <!--END_SECTION:waka-->
