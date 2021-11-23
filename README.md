@@ -24,10 +24,10 @@
 ## 🤖Automatically genereted reports below⏬
 ### Recent activity
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#8](https://github.com/fireship-io/node-crypto-examples/issues/8) in [fireship-io/node-crypto-examples](https://github.com/fireship-io/node-crypto-examples)
-2. 💪 Opened PR [#1](https://github.com/pinkhammer/pinkhammer.github.io/pull/1) in [pinkhammer/pinkhammer.github.io](https://github.com/pinkhammer/pinkhammer.github.io)
-3. 🎉 Merged PR [#1](https://github.com/Mitrajit/LGMVIP-WebDev/pull/1) in [Mitrajit/LGMVIP-WebDev](https://github.com/Mitrajit/LGMVIP-WebDev)
-4. 🗣 Commented on [#213](https://github.com/anmol098/waka-readme-stats/issues/213) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
+1. 🗣 Commented on [#213](https://github.com/anmol098/waka-readme-stats/issues/213) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
+2. 🗣 Commented on [#8](https://github.com/fireship-io/node-crypto-examples/issues/8) in [fireship-io/node-crypto-examples](https://github.com/fireship-io/node-crypto-examples)
+3. 💪 Opened PR [#1](https://github.com/pinkhammer/pinkhammer.github.io/pull/1) in [pinkhammer/pinkhammer.github.io](https://github.com/pinkhammer/pinkhammer.github.io)
+4. 🎉 Merged PR [#1](https://github.com/Mitrajit/LGMVIP-WebDev/pull/1) in [Mitrajit/LGMVIP-WebDev](https://github.com/Mitrajit/LGMVIP-WebDev)
 5. 🗣 Commented on [#213](https://github.com/anmol098/waka-readme-stats/issues/213) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
 <!--END_SECTION:activity-->
 
