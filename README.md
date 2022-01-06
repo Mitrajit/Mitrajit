@@ -32,7 +32,7 @@
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:waka-->
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-116186%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-115430%20lines%20of%20code-blue)
 
 **🐱 My Github Data** 
 
@@ -64,14 +64,14 @@
 **I Mostly Code in JavaScript** 
 
 <table>
-  <tr><td>JavaScript</td><td>7 repos</td><td>████████░░░░░░░░░░░░░░░░░   31.82%</td></tr> 
-  <tr><td>Python</td><td>5 repos</td><td>█████░░░░░░░░░░░░░░░░░░░░   22.73%</td></tr> 
-  <tr><td>Java</td><td>4 repos</td><td>████░░░░░░░░░░░░░░░░░░░░░   18.18%</td></tr> 
-  <tr><td>C#</td><td>1 repo</td><td>█░░░░░░░░░░░░░░░░░░░░░░░░   4.55%</td></tr> 
-  <tr><td>Jupyter Notebook</td><td>1 repo</td><td>█░░░░░░░░░░░░░░░░░░░░░░░░   4.55%</td></tr>
+  <tr><td>JavaScript</td><td>6 repos</td><td>███████░░░░░░░░░░░░░░░░░░   28.57%</td></tr> 
+  <tr><td>Python</td><td>5 repos</td><td>██████░░░░░░░░░░░░░░░░░░░   23.81%</td></tr> 
+  <tr><td>Java</td><td>4 repos</td><td>████░░░░░░░░░░░░░░░░░░░░░   19.05%</td></tr> 
+  <tr><td>C#</td><td>1 repo</td><td>█░░░░░░░░░░░░░░░░░░░░░░░░   4.76%</td></tr> 
+  <tr><td>Jupyter Notebook</td><td>1 repo</td><td>█░░░░░░░░░░░░░░░░░░░░░░░░   4.76%</td></tr>
 </table>
 
 
 
- Last Updated on 05/01/2022
+ Last Updated on 06/01/2022
 <!--END_SECTION:waka-->
