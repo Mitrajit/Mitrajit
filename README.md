@@ -32,11 +32,11 @@
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:waka-->
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-113468%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-114095%20lines%20of%20code-blue)
 
 **🐱 My Github Data** 
 
-> 🏆 0 Contributions in the Year 2022
+> 🏆 5 Contributions in the Year 2022
  > 
 > 📦 102.1 kB Used in Github's Storage 
  > 
@@ -44,30 +44,34 @@
  > 
 > 📜 25 Public Repositories 
  > 
-> 🔑 2 Private Repositories  
+> 🔑 3 Private Repositories  
  > 
 📊 **This Week I Spent My Time On** 
 
 <table>
 <tr><th colspan="3"><br>💬 <i>Programming Languages</i></th></tr> 
-No Activity Tracked This Week
+  <tr><td>Python</td><td>4 hrs</td><td>█████████████████░░░░░░░░   68.93%</td></tr> 
+  <tr><td>Java</td><td>1 hr 20 mins</td><td>█████░░░░░░░░░░░░░░░░░░░░   22.93%</td></tr> 
+  <tr><td>Text</td><td>13 mins</td><td>█░░░░░░░░░░░░░░░░░░░░░░░░   3.85%</td></tr> 
+  <tr><td>Other</td><td>10 mins</td><td>░░░░░░░░░░░░░░░░░░░░░░░░░   3.02%</td></tr> 
+  <tr><td>C</td><td>3 mins</td><td>░░░░░░░░░░░░░░░░░░░░░░░░░   0.9%</td></tr>
 
 <tr><th colspan="3"><br>🔥 <i>Editors</i></th></tr> 
-No Activity Tracked This Week
+  <tr><td>VS Code</td><td>5 hrs 49 mins</td><td>█████████████████████████   100.0%</td></tr>
 
 </table>
 
 **I Mostly Code in Python** 
 
 <table>
-  <tr><td>Python</td><td>5 repos</td><td>██████░░░░░░░░░░░░░░░░░░░   26.32%</td></tr> 
-  <tr><td>Java</td><td>4 repos</td><td>█████░░░░░░░░░░░░░░░░░░░░   21.05%</td></tr> 
-  <tr><td>JavaScript</td><td>4 repos</td><td>█████░░░░░░░░░░░░░░░░░░░░   21.05%</td></tr> 
-  <tr><td>C#</td><td>1 repo</td><td>█░░░░░░░░░░░░░░░░░░░░░░░░   5.26%</td></tr> 
-  <tr><td>Jupyter Notebook</td><td>1 repo</td><td>█░░░░░░░░░░░░░░░░░░░░░░░░   5.26%</td></tr>
+  <tr><td>Python</td><td>6 repos</td><td>███████░░░░░░░░░░░░░░░░░░   30.0%</td></tr> 
+  <tr><td>Java</td><td>4 repos</td><td>█████░░░░░░░░░░░░░░░░░░░░   20.0%</td></tr> 
+  <tr><td>JavaScript</td><td>4 repos</td><td>█████░░░░░░░░░░░░░░░░░░░░   20.0%</td></tr> 
+  <tr><td>C#</td><td>1 repo</td><td>█░░░░░░░░░░░░░░░░░░░░░░░░   5.0%</td></tr> 
+  <tr><td>Jupyter Notebook</td><td>1 repo</td><td>█░░░░░░░░░░░░░░░░░░░░░░░░   5.0%</td></tr>
 </table>
 
 
 
- Last Updated on 26/02/2022
+ Last Updated on 05/03/2022
 <!--END_SECTION:waka-->
