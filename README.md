@@ -32,11 +32,11 @@
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:waka-->
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-114603%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-114757%20lines%20of%20code-blue)
 
 **🐱 My Github Data** 
 
-> 🏆 11 Contributions in the Year 2022
+> 🏆 13 Contributions in the Year 2022
  > 
 > 📦 102.2 kB Used in Github's Storage 
  > 
@@ -50,13 +50,13 @@
 
 <table>
 <tr><th colspan="3"><br>💬 <i>Programming Languages</i></th></tr> 
-  <tr><td>Java</td><td>5 hrs 59 mins</td><td>█████████████████████░░░░   87.28%</td></tr> 
-  <tr><td>Python</td><td>38 mins</td><td>██░░░░░░░░░░░░░░░░░░░░░░░   9.32%</td></tr> 
-  <tr><td>C++</td><td>13 mins</td><td>░░░░░░░░░░░░░░░░░░░░░░░░░   3.24%</td></tr> 
-  <tr><td>Other</td><td>0 secs</td><td>░░░░░░░░░░░░░░░░░░░░░░░░░   0.17%</td></tr>
+  <tr><td>Java</td><td>7 hrs 31 mins</td><td>██████████████████░░░░░░░   73.15%</td></tr> 
+  <tr><td>Python</td><td>2 hrs 33 mins</td><td>██████░░░░░░░░░░░░░░░░░░░   24.82%</td></tr> 
+  <tr><td>C++</td><td>11 mins</td><td>░░░░░░░░░░░░░░░░░░░░░░░░░   1.93%</td></tr> 
+  <tr><td>Other</td><td>0 secs</td><td>░░░░░░░░░░░░░░░░░░░░░░░░░   0.09%</td></tr>
 
 <tr><th colspan="3"><br>🔥 <i>Editors</i></th></tr> 
-  <tr><td>VS Code</td><td>6 hrs 51 mins</td><td>█████████████████████████   100.0%</td></tr>
+  <tr><td>VS Code</td><td>10 hrs 17 mins</td><td>█████████████████████████   100.0%</td></tr>
 
 </table>
 
@@ -72,5 +72,5 @@
 
 
 
- Last Updated on 21/03/2022
+ Last Updated on 27/03/2022
 <!--END_SECTION:waka-->
