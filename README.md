@@ -24,11 +24,11 @@
 ## 🤖Automatically genereted reports below⏬
 ### Recent activity
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#3](https://github.com/Mitrajit/Sharenetic/issues/3) in [Mitrajit/Sharenetic](https://github.com/Mitrajit/Sharenetic)
-2. ❗️ Opened issue [#2](https://github.com/Mitrajit/Sharenetic/issues/2) in [Mitrajit/Sharenetic](https://github.com/Mitrajit/Sharenetic)
-3. 🗣 Commented on [#213](https://github.com/anmol098/waka-readme-stats/issues/213) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
-4. 🎉 Merged PR [#1](https://github.com/Mitrajit/LGMVIP-WebDev/pull/1) in [Mitrajit/LGMVIP-WebDev](https://github.com/Mitrajit/LGMVIP-WebDev)
-5. 🗣 Commented on [#213](https://github.com/anmol098/waka-readme-stats/issues/213) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
+1. 🎉 Merged PR [#3](https://github.com/Mitrajit/Sharenetic/pull/3) in [Mitrajit/Sharenetic](https://github.com/Mitrajit/Sharenetic)
+2. ❗️ Closed issue [#2](https://github.com/Mitrajit/Sharenetic/issues/2) in [Mitrajit/Sharenetic](https://github.com/Mitrajit/Sharenetic)
+3. 🗣 Commented on [#3](https://github.com/Mitrajit/Sharenetic/issues/3) in [Mitrajit/Sharenetic](https://github.com/Mitrajit/Sharenetic)
+4. 🗣 Commented on [#3](https://github.com/Mitrajit/Sharenetic/issues/3) in [Mitrajit/Sharenetic](https://github.com/Mitrajit/Sharenetic)
+5. ❗️ Opened issue [#2](https://github.com/Mitrajit/Sharenetic/issues/2) in [Mitrajit/Sharenetic](https://github.com/Mitrajit/Sharenetic)
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:waka-->
