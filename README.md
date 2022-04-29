@@ -38,7 +38,7 @@
 
 > 🏆 17 Contributions in the Year 2022
  > 
-> 📦 102.3 kB Used in Github's Storage 
+> 📦 101.8 kB Used in Github's Storage 
  > 
 > 💼 Opted to Hire
  > 
@@ -50,10 +50,11 @@
 
 <table>
 <tr><th colspan="3"><br>💬 <i>Programming Languages</i></th></tr> 
-  <tr><td>Java</td><td>1 hr 45 mins</td><td>█████████████████████████   100.0%</td></tr>
+  <tr><td>HTML</td><td>21 mins</td><td>████████████████████████░   97.69%</td></tr> 
+  <tr><td>CSS</td><td>0 secs</td><td>░░░░░░░░░░░░░░░░░░░░░░░░░   2.31%</td></tr>
 
 <tr><th colspan="3"><br>🔥 <i>Editors</i></th></tr> 
-  <tr><td>VS Code</td><td>1 hr 45 mins</td><td>█████████████████████████   100.0%</td></tr>
+  <tr><td>VS Code</td><td>22 mins</td><td>█████████████████████████   100.0%</td></tr>
 
 </table>
 
@@ -69,5 +70,5 @@
 
 
 
- Last Updated on 23/04/2022
+ Last Updated on 29/04/2022
 <!--END_SECTION:waka-->
