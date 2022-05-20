@@ -32,13 +32,13 @@
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:waka-->
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-114928%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-118934%20lines%20of%20code-blue)
 
 **🐱 My Github Data** 
 
-> 🏆 25 Contributions in the Year 2022
+> 🏆 30 Contributions in the Year 2022
  > 
-> 📦 101.9 kB Used in Github's Storage 
+> 📦 102.0 kB Used in Github's Storage 
  > 
 > 💼 Opted to Hire
  > 
@@ -50,10 +50,14 @@
 
 <table>
 <tr><th colspan="3"><br>💬 <i>Programming Languages</i></th></tr> 
-No Activity Tracked This Week
+  <tr><td>JSON</td><td>1 hr 33 mins</td><td>███████████░░░░░░░░░░░░░░   46.74%</td></tr> 
+  <tr><td>JavaScript</td><td>1 hr 13 mins</td><td>█████████░░░░░░░░░░░░░░░░   36.74%</td></tr> 
+  <tr><td>HTML</td><td>27 mins</td><td>███░░░░░░░░░░░░░░░░░░░░░░   13.88%</td></tr> 
+  <tr><td>Java</td><td>4 mins</td><td>░░░░░░░░░░░░░░░░░░░░░░░░░   2.2%</td></tr> 
+  <tr><td>Markdown</td><td>0 secs</td><td>░░░░░░░░░░░░░░░░░░░░░░░░░   0.29%</td></tr>
 
 <tr><th colspan="3"><br>🔥 <i>Editors</i></th></tr> 
-No Activity Tracked This Week
+  <tr><td>VS Code</td><td>3 hrs 19 mins</td><td>█████████████████████████   100.0%</td></tr>
 
 </table>
 
@@ -69,5 +73,5 @@ No Activity Tracked This Week
 
 
 
- Last Updated on 19/05/2022
+ Last Updated on 20/05/2022
 <!--END_SECTION:waka-->
