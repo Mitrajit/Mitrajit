@@ -50,12 +50,10 @@
 
 <table>
 <tr><th colspan="3"><br>💬 <i>Programming Languages</i></th></tr> 
-  <tr><td>Java</td><td>25 mins</td><td>███████████████░░░░░░░░░░   61.13%</td></tr> 
-  <tr><td>Python</td><td>9 mins</td><td>█████░░░░░░░░░░░░░░░░░░░░   21.49%</td></tr> 
-  <tr><td>C++</td><td>7 mins</td><td>████░░░░░░░░░░░░░░░░░░░░░   17.37%</td></tr>
+No Activity Tracked This Week
 
 <tr><th colspan="3"><br>🔥 <i>Editors</i></th></tr> 
-  <tr><td>VS Code</td><td>42 mins</td><td>█████████████████████████   100.0%</td></tr>
+No Activity Tracked This Week
 
 </table>
 
@@ -71,5 +69,5 @@
 
 
 
- Last Updated on 28/05/2022
+ Last Updated on 29/05/2022
 <!--END_SECTION:waka-->
