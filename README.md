@@ -1,4 +1,4 @@
-### Hi there <img src="./Hi.gif"> <img src="https://komarev.com/ghpvc/?username=Mitrajit&color=brightgreen" alt="counter" align="right"/>
+### Hi there <img src="https://raw.githubusercontent.com/soumyadip007/soumyadip007/master/Hi.gif" width="30px" height="30px"> <img src="https://komarev.com/ghpvc/?username=Mitrajit&color=brightgreen" alt="counter" align="right"/>
 <p align="center">
 <br>
 <a href="mailto:chandra.rupam+contact@gmail.com?subject=Hi Mitrajit"><img src="https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>&nbsp;
