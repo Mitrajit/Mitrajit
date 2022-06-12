@@ -32,46 +32,46 @@
 <!--END_SECTION:activity-->
 
 <!--START_SECTION:waka-->
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-126404%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-169971%20lines%20of%20code-blue)
 
 **🐱 My Github Data** 
 
-> 🏆 41 Contributions in the Year 2022
+> 🏆 44 Contributions in the Year 2022
  > 
-> 📦 102.2 kB Used in Github's Storage 
+> 📦 103.4 kB Used in Github's Storage 
  > 
 > 💼 Opted to Hire
  > 
 > 📜 26 Public Repositories 
  > 
-> 🔑 3 Private Repositories  
+> 🔑 4 Private Repositories  
  > 
 📊 **This Week I Spent My Time On** 
 
 <table>
 <tr><th colspan="3"><br>💬 <i>Programming Languages</i></th></tr> 
-  <tr><td>JavaScript</td><td>4 hrs</td><td>████████████████░░░░░░░░░   65.51%</td></tr> 
-  <tr><td>Java</td><td>1 hr 36 mins</td><td>██████░░░░░░░░░░░░░░░░░░░   26.13%</td></tr> 
-  <tr><td>Markdown</td><td>13 mins</td><td>█░░░░░░░░░░░░░░░░░░░░░░░░   3.68%</td></tr> 
-  <tr><td>JSON</td><td>10 mins</td><td>░░░░░░░░░░░░░░░░░░░░░░░░░   2.9%</td></tr> 
-  <tr><td>HTML</td><td>5 mins</td><td>░░░░░░░░░░░░░░░░░░░░░░░░░   1.48%</td></tr>
+  <tr><td>JavaScript</td><td>4 hrs 33 mins</td><td>████████████████░░░░░░░░░   65.09%</td></tr> 
+  <tr><td>Java</td><td>1 hr 36 mins</td><td>█████░░░░░░░░░░░░░░░░░░░░   22.86%</td></tr> 
+  <tr><td>JSON</td><td>22 mins</td><td>█░░░░░░░░░░░░░░░░░░░░░░░░   5.28%</td></tr> 
+  <tr><td>Markdown</td><td>20 mins</td><td>█░░░░░░░░░░░░░░░░░░░░░░░░   4.92%</td></tr> 
+  <tr><td>HTML</td><td>5 mins</td><td>░░░░░░░░░░░░░░░░░░░░░░░░░   1.29%</td></tr>
 
 <tr><th colspan="3"><br>🔥 <i>Editors</i></th></tr> 
-  <tr><td>VS Code</td><td>6 hrs 7 mins</td><td>█████████████████████████   100.0%</td></tr>
+  <tr><td>VS Code</td><td>7 hrs</td><td>█████████████████████████   100.0%</td></tr>
 
 </table>
 
 **I Mostly Code in Python** 
 
 <table>
-  <tr><td>Python</td><td>6 repos</td><td>███████░░░░░░░░░░░░░░░░░░   28.57%</td></tr> 
-  <tr><td>JavaScript</td><td>5 repos</td><td>██████░░░░░░░░░░░░░░░░░░░   23.81%</td></tr> 
-  <tr><td>Java</td><td>4 repos</td><td>████░░░░░░░░░░░░░░░░░░░░░   19.05%</td></tr> 
-  <tr><td>C#</td><td>1 repo</td><td>█░░░░░░░░░░░░░░░░░░░░░░░░   4.76%</td></tr> 
-  <tr><td>Jupyter Notebook</td><td>1 repo</td><td>█░░░░░░░░░░░░░░░░░░░░░░░░   4.76%</td></tr>
+  <tr><td>Python</td><td>6 repos</td><td>██████░░░░░░░░░░░░░░░░░░░   27.27%</td></tr> 
+  <tr><td>JavaScript</td><td>6 repos</td><td>██████░░░░░░░░░░░░░░░░░░░   27.27%</td></tr> 
+  <tr><td>Java</td><td>4 repos</td><td>████░░░░░░░░░░░░░░░░░░░░░   18.18%</td></tr> 
+  <tr><td>C#</td><td>1 repo</td><td>█░░░░░░░░░░░░░░░░░░░░░░░░   4.55%</td></tr> 
+  <tr><td>Jupyter Notebook</td><td>1 repo</td><td>█░░░░░░░░░░░░░░░░░░░░░░░░   4.55%</td></tr>
 </table>
 
 
 
- Last Updated on 11/06/2022
+ Last Updated on 12/06/2022
 <!--END_SECTION:waka-->
