@@ -63,14 +63,14 @@
 **I Mostly Code in JavaScript** 
 
 <table>
-  <tr><td>JavaScript</td><td>10 repos</td><td>████████░░░░░░░░░░░░░░░░░   34.48%</td></tr> 
-  <tr><td>Python</td><td>6 repos</td><td>█████░░░░░░░░░░░░░░░░░░░░   20.69%</td></tr> 
-  <tr><td>Java</td><td>4 repos</td><td>███░░░░░░░░░░░░░░░░░░░░░░   13.79%</td></tr> 
-  <tr><td>HTML</td><td>2 repos</td><td>█░░░░░░░░░░░░░░░░░░░░░░░░   6.9%</td></tr> 
-  <tr><td>C#</td><td>1 repo</td><td>░░░░░░░░░░░░░░░░░░░░░░░░░   3.45%</td></tr>
+  <tr><td>JavaScript</td><td>11 repos</td><td>█████████░░░░░░░░░░░░░░░░   36.67%</td></tr> 
+  <tr><td>Python</td><td>6 repos</td><td>█████░░░░░░░░░░░░░░░░░░░░   20.0%</td></tr> 
+  <tr><td>Java</td><td>4 repos</td><td>███░░░░░░░░░░░░░░░░░░░░░░   13.33%</td></tr> 
+  <tr><td>HTML</td><td>2 repos</td><td>█░░░░░░░░░░░░░░░░░░░░░░░░   6.67%</td></tr> 
+  <tr><td>C#</td><td>1 repo</td><td>░░░░░░░░░░░░░░░░░░░░░░░░░   3.33%</td></tr>
 </table>
 
 
 
- Last Updated on 18/07/2022
+ Last Updated on 19/07/2022
 <!--END_SECTION:waka-->
