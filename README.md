@@ -38,7 +38,7 @@
 
 > 🏆 1 Contributions in the Year 2023
  > 
-> 📦 109.7 kB Used in Github's Storage 
+> 📦 109.8 kB Used in Github's Storage 
  > 
 > 💼 Opted to Hire
  > 
@@ -73,5 +73,5 @@
 
 
 
- Last Updated on 21/01/2023
+ Last Updated on 22/01/2023
 <!--END_SECTION:waka-->
