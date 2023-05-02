@@ -50,10 +50,14 @@
 
 <table>
 <tr><th colspan="3"><br>💬 <i>Programming Languages</i></th></tr> 
-No Activity Tracked This Week
+  <tr><td>JavaScript</td><td>53 mins</td><td>███████████████████████░░   92.64%</td></tr> 
+  <tr><td>Bash</td><td>3 mins</td><td>█░░░░░░░░░░░░░░░░░░░░░░░░   5.37%</td></tr> 
+  <tr><td>JSON</td><td>1 min</td><td>░░░░░░░░░░░░░░░░░░░░░░░░░   1.9%</td></tr> 
+  <tr><td>TypeScript</td><td>0 secs</td><td>░░░░░░░░░░░░░░░░░░░░░░░░░   0.06%</td></tr> 
+  <tr><td>CSV</td><td>0 secs</td><td>░░░░░░░░░░░░░░░░░░░░░░░░░   0.04%</td></tr>
 
 <tr><th colspan="3"><br>🔥 <i>Editors</i></th></tr> 
-No Activity Tracked This Week
+  <tr><td>VS Code</td><td>57 mins</td><td>█████████████████████████   100.0%</td></tr>
 
 </table>
 
@@ -69,5 +73,5 @@ No Activity Tracked This Week
 
 
 
- Last Updated on 01/05/2023
+ Last Updated on 02/05/2023
 <!--END_SECTION:waka-->
