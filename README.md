@@ -36,28 +36,28 @@
 
 **🐱 My Github Data** 
 
-> 🏆 26 Contributions in the Year 2023
+> 🏆 27 Contributions in the Year 2023
  > 
 > 📦 148.9 kB Used in Github's Storage 
  > 
 > 💼 Opted to Hire
  > 
-> 📜 32 Public Repositories 
+> 📜 31 Public Repositories 
  > 
-> 🔑 11 Private Repositories  
+> 🔑 12 Private Repositories  
  > 
 📊 **This Week I Spent My Time On** 
 
 <table>
 <tr><th colspan="3"><br>💬 <i>Programming Languages</i></th></tr> 
-  <tr><td>JavaScript</td><td>27 hrs 35 mins</td><td>████████████████████░░░░░   79.76%</td></tr> 
-  <tr><td>EJS</td><td>3 hrs 2 mins</td><td>██░░░░░░░░░░░░░░░░░░░░░░░   8.78%</td></tr> 
-  <tr><td>HTML</td><td>1 hr 21 mins</td><td>█░░░░░░░░░░░░░░░░░░░░░░░░   3.94%</td></tr> 
-  <tr><td>Bash</td><td>1 hr 8 mins</td><td>░░░░░░░░░░░░░░░░░░░░░░░░░   3.32%</td></tr> 
-  <tr><td>Other</td><td>27 mins</td><td>░░░░░░░░░░░░░░░░░░░░░░░░░   1.33%</td></tr>
+  <tr><td>JavaScript</td><td>28 hrs 46 mins</td><td>███████████████████░░░░░░   77.57%</td></tr> 
+  <tr><td>EJS</td><td>4 hrs</td><td>██░░░░░░░░░░░░░░░░░░░░░░░   10.82%</td></tr> 
+  <tr><td>HTML</td><td>1 hr 21 mins</td><td>█░░░░░░░░░░░░░░░░░░░░░░░░   3.68%</td></tr> 
+  <tr><td>Bash</td><td>55 mins</td><td>░░░░░░░░░░░░░░░░░░░░░░░░░   2.5%</td></tr> 
+  <tr><td>Other</td><td>48 mins</td><td>░░░░░░░░░░░░░░░░░░░░░░░░░   2.17%</td></tr>
 
 <tr><th colspan="3"><br>🔥 <i>Editors</i></th></tr> 
-  <tr><td>VS Code</td><td>34 hrs 35 mins</td><td>█████████████████████████   100.0%</td></tr>
+  <tr><td>VS Code</td><td>37 hrs 5 mins</td><td>█████████████████████████   100.0%</td></tr>
 
 </table>
 
@@ -73,5 +73,5 @@
 
 
 
- Last Updated on 30/09/2023
+ Last Updated on 01/10/2023
 <!--END_SECTION:waka-->
