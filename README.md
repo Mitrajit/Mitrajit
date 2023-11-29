@@ -24,7 +24,7 @@
 ## 🤖Automatically genereted reports below⏬
 ### Recent activity
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#8](https://github.com/Mitrajit/Sharenetic/pull/8) in [Mitrajit/Sharenetic](https://github.com/Mitrajit/Sharenetic)
+1. 🗣 Commented on [#151](https://github.com/trevorhobenshield/twitter-api-client/issues/151#issuecomment-1832411941) in [trevorhobenshield/twitter-api-client](https://github.com/trevorhobenshield/twitter-api-client)
 2. 🎉 Merged PR [#1](https://github.com/Mitrajit/Sharenetic/pull/1) in [Mitrajit/Sharenetic](https://github.com/Mitrajit/Sharenetic)
 3. ❗️ Closed issue [#4](https://github.com/Mitrajit/Sharenetic/issues/4) in [Mitrajit/Sharenetic](https://github.com/Mitrajit/Sharenetic)
 4. ❗️ Opened issue [#6](https://github.com/Mitrajit/Sharenetic/issues/6) in [Mitrajit/Sharenetic](https://github.com/Mitrajit/Sharenetic)
