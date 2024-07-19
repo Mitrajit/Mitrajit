@@ -10,9 +10,8 @@
 
 <!-- - 🔭 I’m currently working on ...-->
 
-- 🌱 I’m currently learning Artificial Inteligence, web development.
-- 👯 I’m looking to collaborate on any open source project that require my skills.<!-- - 🤔 I’m looking for help with ... -->
-- 💬 Ask me about anything, I would be happy to help 😄
+- 🌱 I’m currently building and scaling at Reachinbox.ai
+- 👯 I’m looking to collaborate and learn while building our SAAS products.<!-- - 🤔 I’m looking for help with ... -->
 - 📬 How to reach me: [Let's get in touch!](mailto:chandra.rupam+contact@gmail.com)
 ### ⚡ Github Stats
 <!-- <img align="left" src="https://github-readme-stats.sumanth-talluri.vercel.app/api?username=Mitrajit&show_icons=true&title_color=fff&icon_color=79ff97&text_color=efefef&bg_color=24292e" alt="Mitrajit's Gitstats" width="60%"> -->
