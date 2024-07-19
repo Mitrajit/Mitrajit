@@ -10,7 +10,7 @@
 
 <!-- - 🔭 I’m currently working on ...-->
 
-- 🌱 I’m currently building and scaling at Reachinbox.ai
+- 🌱 I’m currently building and scaling at [Reachinbox.ai](https://reachinbox.ai)
 - 👯 I’m looking to collaborate and learn while building our SAAS products.<!-- - 🤔 I’m looking for help with ... -->
 - 📬 How to reach me: [Let's get in touch!](mailto:chandra.rupam+contact@gmail.com)
 ### ⚡ Github Stats
