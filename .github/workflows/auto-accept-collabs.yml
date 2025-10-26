@@ -1,19 +1,286 @@
-name: Auto Accept Collabs
+name: Auto Accept Repository Invitations
 
 on:
-  push:
-    branches:
-      - master
   schedule:
-    - cron: 0 0 * * *
+    # Runs at 00:00 UTC every day
+    - cron: '0 0 * * *'
+  
+  # Allow manual trigger from Actions tab
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Run in dry-run mode (no changes)'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'true'
+          - 'false'
 
 jobs:
-  file_sync:
+  accept-invitations:
     runs-on: ubuntu-latest
+    
+    # Optional: Add timeout to prevent hanging
+    timeout-minutes: 10
+    
     steps:
-      - name: Fetching Local Repository
-        uses: actions/checkout@master
-      - name: Auto Accept Collabs
-        uses: kbrashears5/github-action-auto-accept-collabs@v2.0.0
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Python (for JSON parsing)
+        uses: actions/setup-python@v4
         with:
-          TOKEN: ${{ secrets.AUTO_ACCEPT_COLLABS }}
+          python-version: '3.x'
+      
+      - name: Accept all repository invitations
+        env:
+          GITHUB_PAT: ${{ secrets.INVITATION_ACCEPT_PAT }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+        run: |
+          # Create the acceptance script inline
+          cat << 'SCRIPT_EOF' > accept_invitations.sh
+          #!/bin/bash
+          set -e
+
+          # Color codes for GitHub Actions logs
+          RED='\033[0;31m'
+          GREEN='\033[0;32m'
+          YELLOW='\033[1;33m'
+          BLUE='\033[0;34m'
+          CYAN='\033[0;36m'
+          NC='\033[0m'
+
+          # Configuration
+          GITHUB_TOKEN="${GITHUB_PAT}"
+          DRY_RUN="${DRY_RUN:-false}"
+          API_BASE="https://api.github.com"
+          PER_PAGE=100  # Max items per page
+
+          # Counters
+          TOTAL_FETCHED=0
+          ACCEPTED=0
+          SKIPPED=0
+          FAILED=0
+
+          # Print colored output
+          print_color() {
+              local color=$1
+              local message=$2
+              echo -e "${color}${message}${NC}"
+          }
+
+          # Function to extract next page URL from Link header
+          get_next_page() {
+              local link_header="$1"
+              if [[ "$link_header" =~ \<([^>]+)\>;\s*rel=\"next\" ]]; then
+                  echo "${BASH_REMATCH[1]}"
+              fi
+          }
+
+          # Function to make authenticated API calls with pagination support
+          api_call_with_headers() {
+              local url="$1"
+              local method="${2:-GET}"
+              
+              # Make request and capture both headers and body
+              response=$(curl -s -i -X "$method" \
+                  -H "Authorization: token $GITHUB_TOKEN" \
+                  -H "Accept: application/vnd.github.v3+json" \
+                  "$url")
+              
+              # Split headers and body
+              headers=$(echo "$response" | sed '/^\r$/q')
+              body=$(echo "$response" | sed '1,/^\r$/d')
+              
+              # Extract Link header for pagination
+              link_header=$(echo "$headers" | grep -i "^link:" | sed 's/^link: //i')
+              
+              # Output body
+              echo "$body"
+              
+              # Return link header via file descriptor 3
+              if [ -n "$link_header" ]; then
+                  echo "$link_header" >&3
+              fi
+          }
+
+          # Function to accept a single invitation
+          accept_invitation() {
+              local inv_id="$1"
+              local repo_name="$2"
+              
+              if [ "$DRY_RUN" = "true" ]; then
+                  print_color "$CYAN" "  [DRY-RUN] Would accept invitation ID: $inv_id"
+                  return 0
+              fi
+              
+              response=$(curl -s -w "\n%{http_code}" -X PATCH \
+                  -H "Authorization: token $GITHUB_TOKEN" \
+                  -H "Accept: application/vnd.github.v3+json" \
+                  "${API_BASE}/user/repository_invitations/$inv_id")
+              
+              http_code=$(echo "$response" | tail -n1)
+              body=$(echo "$response" | sed '$d')
+              
+              if [ "$http_code" = "204" ]; then
+                  print_color "$GREEN" "  ✓ Accepted: $repo_name"
+                  return 0
+              else
+                  error_msg=$(echo "$body" | python3 -c "import json,sys; print(json.load(sys.stdin).get('message','Unknown error'))" 2>/dev/null || echo "HTTP $http_code")
+                  print_color "$RED" "  ✗ Failed: $repo_name - $error_msg"
+                  return 1
+              fi
+          }
+
+          # Main execution
+          print_color "$BLUE" "======================================"
+          print_color "$BLUE" "GitHub Repository Invitation Acceptor"
+          print_color "$BLUE" "======================================"
+          echo ""
+
+          if [ "$DRY_RUN" = "true" ]; then
+              print_color "$YELLOW" "🔸 Running in DRY-RUN mode"
+              echo ""
+          fi
+
+          # Verify token
+          print_color "$BLUE" "🔐 Verifying GitHub token..."
+          user_response=$(curl -s -w "\n%{http_code}" \
+              -H "Authorization: token $GITHUB_TOKEN" \
+              -H "Accept: application/vnd.github.v3+json" \
+              "${API_BASE}/user")
+          
+          http_code=$(echo "$user_response" | tail -n1)
+          
+          if [ "$http_code" != "200" ]; then
+              print_color "$RED" "✗ Invalid GitHub token (HTTP $http_code)"
+              exit 1
+          fi
+          
+          username=$(echo "$user_response" | sed '$d' | python3 -c "import json,sys; print(json.load(sys.stdin).get('login','unknown'))" 2>/dev/null)
+          print_color "$GREEN" "✓ Authenticated as: $username"
+          echo ""
+
+          # Process invitations with pagination
+          print_color "$BLUE" "📬 Fetching repository invitations..."
+          
+          # Start with first page
+          current_url="${API_BASE}/user/repository_invitations?per_page=${PER_PAGE}"
+          page=1
+
+          # Create temporary file for storing all invitations
+          temp_file=$(mktemp)
+          trap "rm -f $temp_file" EXIT
+
+          # Fetch all pages
+          while [ -n "$current_url" ]; do
+              print_color "$CYAN" "  Fetching page $page..."
+              
+              # Use file descriptor 3 to capture link header
+              exec 3>&1
+              invitations=$(api_call_with_headers "$current_url" "GET" 2>&1 | tee >(cat >&3))
+              link_header=$(cat <&3)
+              exec 3>&-
+              
+              # Parse invitations and append to temp file
+              echo "$invitations" | python3 -c "
+          import json
+          import sys
+
+          try:
+              data = json.load(sys.stdin)
+              if isinstance(data, list):
+                  for inv in data:
+                      repo = inv.get('repository', {})
+                      print(f\"{inv.get('id', '')}|{repo.get('full_name', 'unknown')}|{inv.get('expired', False)}|{repo.get('private', False)}\")
+          except Exception as e:
+              print(f\"Error parsing invitations: {e}\", file=sys.stderr)
+          " >> "$temp_file"
+              
+              # Count invitations on this page
+              page_count=$(echo "$invitations" | python3 -c "import json,sys; print(len(json.load(sys.stdin)))" 2>/dev/null || echo "0")
+              TOTAL_FETCHED=$((TOTAL_FETCHED + page_count))
+              
+              # Get next page URL from Link header
+              if [ -n "$link_header" ]; then
+                  current_url=$(get_next_page "$link_header")
+              else
+                  current_url=""
+              fi
+              
+              page=$((page + 1))
+              
+              # Small delay to avoid rate limiting
+              sleep 0.2
+          done
+
+          if [ "$TOTAL_FETCHED" -eq 0 ]; then
+              print_color "$YELLOW" "📭 No pending repository invitations found"
+              echo "::set-output name=accepted::0"
+              echo "::set-output name=failed::0"
+              echo "::set-output name=skipped::0"
+              exit 0
+          fi
+
+          print_color "$GREEN" "📋 Found $TOTAL_FETCHED invitation(s)"
+          echo ""
+
+          # Process each invitation
+          print_color "$BLUE" "🚀 Processing invitations..."
+          
+          while IFS='|' read -r inv_id repo_name expired is_private; do
+              # Skip empty lines
+              [ -z "$inv_id" ] && continue
+              
+              # Display repo info
+              if [ "$is_private" = "True" ]; then
+                  print_color "$BLUE" "📦 $repo_name (private)"
+              else
+                  print_color "$BLUE" "📦 $repo_name (public)"
+              fi
+              
+              # Skip expired invitations
+              if [ "$expired" = "True" ]; then
+                  print_color "$YELLOW" "  ⊘ Skipped: Invitation expired"
+                  ((SKIPPED++)) || true
+                  continue
+              fi
+              
+              # Accept the invitation
+              if accept_invitation "$inv_id" "$repo_name"; then
+                  ((ACCEPTED++)) || true
+              else
+                  ((FAILED++)) || true
+              fi
+              
+              # Rate limit protection
+              sleep 0.5
+              
+          done < "$temp_file"
+
+          # Summary
+          echo ""
+          print_color "$BLUE" "======================================"
+          print_color "$BLUE" "Summary"
+          print_color "$BLUE" "======================================"
+          print_color "$GREEN" "✓ Accepted: $ACCEPTED"
+          print_color "$YELLOW" "⊘ Skipped: $SKIPPED"
+          if [ "$FAILED" -gt 0 ]; then
+              print_color "$RED" "✗ Failed: $FAILED"
+          fi
+
+          # Set outputs for GitHub Actions
+          echo "::set-output name=accepted::$ACCEPTED"
+          echo "::set-output name=failed::$FAILED"
+          echo "::set-output name=skipped::$SKIPPED"
+
+          # Exit with error if any failed
+          if [ "$FAILED" -gt 0 ]; then
+              exit 1
+          fi
+          SCRIPT_EOF
+          
+          # Make script executable and run it
+          chmod +x accept_invitations.sh
+          ./accept_invitations.sh
