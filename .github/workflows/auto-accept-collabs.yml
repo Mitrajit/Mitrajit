@@ -71,11 +71,11 @@ jobs:
           }
 
           # Function to extract next page URL from Link header
+          # Link header format: <url>; rel="next", <url>; rel="last"
           get_next_page() {
               local link_header="$1"
-              if [[ "$link_header" =~ \<([^>]+)\>;\s*rel=\"next\" ]]; then
-                  echo "${BASH_REMATCH[1]}"
-              fi
+              # Use grep and sed to extract the next URL
+              echo "$link_header" | grep -o '<[^>]*>; rel="next"' | sed 's/<\([^>]*\)>.*/\1/' || true
           }
 
           # Function to make authenticated API calls with pagination support
@@ -99,9 +99,11 @@ jobs:
               # Output body
               echo "$body"
               
-              # Return link header via file descriptor 3
+              # Store link header in temporary file for retrieval
               if [ -n "$link_header" ]; then
-                  echo "$link_header" >&3
+                  echo "$link_header" > /tmp/link_header_$$
+              else
+                  rm -f /tmp/link_header_$$
               fi
           }
 
@@ -127,7 +129,7 @@ jobs:
                   print_color "$GREEN" "  ✓ Accepted: $repo_name"
                   return 0
               else
-                  error_msg=$(echo "$body" | python3 -c "import json,sys; print(json.load(sys.stdin).get('message','Unknown error'))" 2>/dev/null || echo "HTTP $http_code")
+                  error_msg=$(echo "$body" | python3 -c "import json,sys; d=sys.stdin.read(); print(json.loads(d).get('message','Unknown error') if d else 'HTTP error')" 2>/dev/null || echo "HTTP $http_code")
                   print_color "$RED" "  ✗ Failed: $repo_name - $error_msg"
                   return 1
               fi
@@ -171,17 +173,14 @@ jobs:
 
           # Create temporary file for storing all invitations
           temp_file=$(mktemp)
-          trap "rm -f $temp_file" EXIT
+          trap "rm -f $temp_file /tmp/link_header_$$" EXIT
 
           # Fetch all pages
           while [ -n "$current_url" ]; do
               print_color "$CYAN" "  Fetching page $page..."
               
-              # Use file descriptor 3 to capture link header
-              exec 3>&1
-              invitations=$(api_call_with_headers "$current_url" "GET" 2>&1 | tee >(cat >&3))
-              link_header=$(cat <&3)
-              exec 3>&-
+              # Call API and get response
+              invitations=$(api_call_with_headers "$current_url" "GET")
               
               # Parse invitations and append to temp file
               echo "$invitations" | python3 -c "
@@ -199,27 +198,36 @@ jobs:
           " >> "$temp_file"
               
               # Count invitations on this page
-              page_count=$(echo "$invitations" | python3 -c "import json,sys; print(len(json.load(sys.stdin)))" 2>/dev/null || echo "0")
+              page_count=$(echo "$invitations" | python3 -c "import json,sys; d=sys.stdin.read(); print(len(json.loads(d)) if d and d.strip() else 0)" 2>/dev/null || echo "0")
               TOTAL_FETCHED=$((TOTAL_FETCHED + page_count))
               
               # Get next page URL from Link header
-              if [ -n "$link_header" ]; then
-                  current_url=$(get_next_page "$link_header")
+              if [ -f "/tmp/link_header_$$" ]; then
+                  link_header=$(cat /tmp/link_header_$$)
+                  next_url=$(get_next_page "$link_header")
+                  current_url="$next_url"
+                  rm -f /tmp/link_header_$$
               else
                   current_url=""
+              fi
+              
+              if [ -z "$current_url" ]; then
+                  print_color "$CYAN" "    Found ${page_count} invitation(s). No more pages."
+              else
+                  print_color "$CYAN" "    Found ${page_count} invitation(s). Fetching next page..."
               fi
               
               page=$((page + 1))
               
               # Small delay to avoid rate limiting
-              sleep 0.2
+              [ -n "$current_url" ] && sleep 0.2
           done
 
           if [ "$TOTAL_FETCHED" -eq 0 ]; then
               print_color "$YELLOW" "📭 No pending repository invitations found"
-              echo "::set-output name=accepted::0"
-              echo "::set-output name=failed::0"
-              echo "::set-output name=skipped::0"
+              echo "accepted=0" >> $GITHUB_OUTPUT
+              echo "failed=0" >> $GITHUB_OUTPUT
+              echo "skipped=0" >> $GITHUB_OUTPUT
               exit 0
           fi
 
@@ -270,10 +278,10 @@ jobs:
               print_color "$RED" "✗ Failed: $FAILED"
           fi
 
-          # Set outputs for GitHub Actions
-          echo "::set-output name=accepted::$ACCEPTED"
-          echo "::set-output name=failed::$FAILED"
-          echo "::set-output name=skipped::$SKIPPED"
+          # Set outputs for GitHub Actions (new syntax)
+          echo "accepted=$ACCEPTED" >> $GITHUB_OUTPUT
+          echo "failed=$FAILED" >> $GITHUB_OUTPUT
+          echo "skipped=$SKIPPED" >> $GITHUB_OUTPUT
 
           # Exit with error if any failed
           if [ "$FAILED" -gt 0 ]; then
